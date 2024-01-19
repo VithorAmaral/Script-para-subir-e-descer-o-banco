@@ -1,1 +1,1 @@
-# Script-para-subir-e-descer-o-banco
+Este script Bash é projetado para iniciar e parar o listener Oracle e o banco de dados. Para a opção 'start', ele inicia o listener e inicia os bancos de dados usando SQLPlus. Para a opção 'stop', ele para o listener e encerra os bancos de dados também usando SQLPlus.
