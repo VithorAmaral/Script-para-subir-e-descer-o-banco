@@ -1,1 +1,1 @@
-Este script Bash é projetado para iniciar e parar o listener Oracle e o banco de dados. Para a opção 'start', ele inicia o listener e inicia os bancos de dados usando SQLPlus. Para a opção 'stop', ele para o listener e encerra os bancos de dados também usando SQLPlus.
+Este script em Bash inicia ou para o Oracle listener e banco de dados com base no argumento fornecido. Ele verifica se o banco está aberto antes de iniciar e exibe mensagens apropriadas. O script também verifica se o listener está em execução antes de iniciar ou parar.
