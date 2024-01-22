@@ -1,5 +1,6 @@
 #!/bin/bash
 # description: Starts and stops the Oracle listener and database
+source /u01/scripts/profiles/CDBRMSCO.sh
 
 case "$1" in
     'start')
