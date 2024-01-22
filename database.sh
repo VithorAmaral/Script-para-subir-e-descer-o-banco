@@ -12,7 +12,7 @@ case "$1" in
     'start')
         #Verifica se o Banco está aberto e passa uma mensagem
         if echo "$net" = | grep -q "tcp6.*0.*:::1521.*:::.*LISTEN"; then
-            echo "Banco já está aberto"
+            echo "ℹ️ O banco já está em execução. Nenhuma ação necessária."
         else
             #Inicia o Banco
             # Start the listener:
@@ -37,6 +37,6 @@ EOF
         ;;
     *)
         # Mensagem de erro:
-        echo "Não foi passado nenhum parâmetro, escreva start ou stop"
+        echo "❌ Por favor, forneça um argumento válido. Use 'start' para iniciar ou 'stop' para parar."
         ;;
 esac
